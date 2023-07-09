@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.6rem;
+}
+html{
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+.logoimage {
+    width: 145px;
+    cursor: pointer;
+}
+/* Header Section Start */
+.headerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3.5rem 0rem;
+}
+
+ul{
+    display: flex;
+    gap: 8.5rem;
+}
+ul li a{
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: red;
+    
+}
+/* Header Section End */
+
+/* Hero Section start */
+.banner{
+    background-image: url(.//assests/images/background.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    position: relative;
+    opacity: .6;
+}
+.herowrapper{
+    position: relative;
+    display: block;
+}
+.content {
+    position: absolute;
+    margin-top: 12.5rem;
+    text-align: center;
+    margin-left: 25.5rem;
+}
+.appContent{
+    font-weight: 1.8rem;
+    font-weight: bold;
+}
+.whyContent {
+    width: 53.5rem;
+    font-size: 3.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+.downloadContent{
+    margin: 1.5rem 0rem ;
+}
+.herocommonbtn {
+    padding: 1.5rem;
+    border: 2px solid white;
+    background: #000;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 15px;
+    width: 108px;
+    margin-left: 38px;
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 15px 0px;
+}
+a.herocommonbtn{
+    color: white;
+}
+.herocommonbtn:hover{
+    background-color: red;
+}
+img.left {
+    margin-top: -197px;
+    margin-left: 311px;
+    display: inline-block;
+}
+/* Hero Section End */
+
+/* Banner Image  Start */
+.bannerCel {
+    height: 423px;
+    margin-top: -10px;
+    position: relative;
+}
+img.right {
+    display: block;
+    margin-top: -360px;
+    margin-left: 504px;
+}
+.commonhr{
+    width:500px;
+    text-align: center;
+    margin: 20px auto;
+    height: 1px;
+}
+/* Banner Image End */
+
+/* Footer Section Start */
+.footSection{
+    height: 100px;
+    text-align:center;
+    font-weight: bold;
+
+}
+/* Footer Section End */
+
